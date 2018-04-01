@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Formulário Cedro</title>
+		<meta http-equiv="content-language" content="pt-br">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="cedro.css" type="text/css">
+	</head>
+	<body>
+		<div class="contener">
+			<img src="checklist.PNG">
+		
+			<h1 class="titulo">INFORMAÇÕES RECEBIDAS!</h1>
+				 <p class="descricao">Em até 48h daremos um retorno sobre a abertura de sua conta.</p>
+				 <p class="descricao">Para receber nossas recomendações de investimentos e começar a inverstir,<br> precisamos conhecer o seu perfil de investidor.</p>
+				 <p class="descricao">São apenas 4 perguntas, que irão guiar todas as  suas decisões de investimentos.</p>
+				 <p class="descricao">Gostaria de responder ao Perfil do investidor?</p>
+				 <input class="botao" type="button" value="Não" onclick="termo()"/>
+				 <a class="botao -voltar" href="questionario.html" value="Sim"/>Sim</a>				
+		</div>
+		<div class="termo-bg" id="aparece">
+			<div class="termo">
+			<a class="botao -x" href="cedro.html" value=x/>x</a>
+				<h1 class="titulo red">Termo</h1>
+					<p class="descricao -termo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and serambled it to make a type</p>
+					<span class="border"></span>
+					<input type="checkbox" id="LiCheck"/><p class="descricao -termo">Li e aceito os termos e condições acima</p>	
+				<a class="botao -termo" onclick="ValidarTermo();">OK, ENTENDI</a>	
+			</div>		
+		</div>
+		<script src="cedro.js"></script>	
+	</body>
+</html>

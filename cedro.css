@@ -1,0 +1,224 @@
+
+.contener {
+	text-align: center;
+	border: black;
+	margin: 10% auto 0 auto;
+}
+.container-form{
+	width: 80%;
+	margin-left: 10%;
+}
+.titulo {
+    font-size: 14px;
+	text-align: center;
+}
+
+.titulo.red{
+	color: #a40202;
+}
+
+.titulo,
+.descricao,
+.botao {
+	color: #a29b9b;
+	font-family: arial,sans-serif;
+}
+.descricao {
+	font-size: 14px;	
+}
+.descricao:nth-child(6){
+	margin-top: 40;
+}
+
+.teste{
+	width: 20%;
+    height: auto;
+    background-color: #fff;
+    margin: 2% auto;
+    padding: 15px;
+    border-radius: 40px;
+	margin-left: 3%;
+	text-align: initial;
+}
+
+.botao {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px 30px
+}
+.botao.-termo,
+.botao.-botaoselect{
+	margin: 15px auto 0 auto;
+	display: block;
+	background-color: #ffc606;
+	color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	width: 30%;
+}
+.botao.-x{
+    float: right;
+    color: #ccc;
+    font-size: 20;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 1px solid;
+    height: 5px;
+    width: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: -10;
+    border-color: #fff;
+}
+.botao.-botaoselect{
+	width: 30%;
+    padding: 11px 0;
+
+}
+.form-button{
+	display: flex;
+    width: 33%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+	margin-right: 9%;
+}
+.termo-bg {
+	display: none;
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left:0;
+}
+.termo {
+	width: 40%;
+	height: auto;
+	background-color: #fff;
+	margin: 2% auto;
+	padding:15px;
+	border-radius: 10px;
+}
+.descricao.-termo{
+	color: #414040;
+	display: inline;
+}
+.border{
+	display: block;
+	border: solid #ccc 1px;
+	border-style: dashed;
+	margin: 20px 0px;
+}
+.active {
+	display: block;
+	
+}
+img {
+	max-width: 80px;
+
+}
+.linha{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.check{
+    position: absolute;
+    left: -200px;
+    opacity: 0;
+}
+.mask-check{
+	width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+    border: 2px #ccc solid;
+    background-color: transparent;
+}
+input:checked~.mask-check{
+	    background-color: #771b1b;
+	    border: none;
+	    width: 12px;
+ 	   height: 12px;
+	}
+input:checked~.mask-check:before,
+input:checked~.mask-check:after{
+    content: "";
+    width: 3px;  
+    background-color: #fff;
+    display: block;
+    position: absolute;
+}
+.mask-check:before{
+	transform: rotate(-35deg);
+    height: 30%;
+    top: 36%;
+    left: 19%;
+}
+.mask-check:after{
+	    transform: rotate(50deg);
+	    left: 50%;
+	    top: 20%;
+	    height: 76%;
+}
+.text-form{
+	width: 33%;
+	padding-left: 3%;
+	float: right;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.iten-form{
+	padding-left: 5%;
+	position: absolute;
+	top: -10px;
+	margin: 0px;
+}
+.investimentos .iten-form,
+.investimento-ano .iten-form{
+	top:0px;
+}
+.indice{
+	width: 40%;
+	margin: 20px auto;
+	display: list-item;
+}
+.box-form-select{
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap; 
+}
+.box-selection{
+	width: 50%;
+	margin: 20px 0;
+}
+.box-selection .titulo{
+	margin-bottom: 30px; 
+}
+.select{
+    border: none;
+	border-bottom: 1px solid #ccc;
+	color:#ccc;
+}
+.-sucesso{
+	margin: 10% 20%;
+	color: #0fbf25;
+	font-size: 16px;
+}
+.-voltar{
+	text-decoration: none;
+	font-size: 15px;
+}
